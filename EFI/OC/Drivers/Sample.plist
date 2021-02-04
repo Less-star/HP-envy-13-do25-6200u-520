@@ -435,33 +435,33 @@
 		<dict>
 			<key>#设置ASPM模式</key>
 			<dict>
-				<key>ASPM模式</key>
-				<string>pci-aspm-default</string>
-				<key>ASPM模式设置</key>
-				<string>父设备-子设备</string>
 				<key>L0s/L1模式</key>
 				<string>03000000-03010000</string>
-				<key>L1模式</key>
-				<string>02000000-02010000</string>
-				<key>子设备（路径）</key>
-				<string>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</string>
-				<key>父设备（路径）</key>
-				<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
-				<key>禁止ASPM</key>
-				<string>00000000-00000000</string>
+				<key>ASPM模式设置</key>
+				<string>父设备-子设备</string>
 				<key>设备内建=built-in</key>
 				<string>01</string>
+				<key>子设备（路径）</key>
+				<string>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</string>
+				<key>L1模式</key>
+				<string>02000000-02010000</string>
+				<key>ASPM模式</key>
+				<string>pci-aspm-default</string>
+				<key>禁止ASPM</key>
+				<string>00000000-00000000</string>
+				<key>父设备（路径）</key>
+				<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
 			</dict>
 			<key>#高级定制设置设备参数</key>
 			<dict>
 				<key>插槽名称=AAPL,slot-name</key>
 				<string></string>
-				<key>设备内建=built-in</key>
-				<string>01</string>
 				<key>设备型号= model</key>
 				<string></string>
 				<key>设备类型= device_type</key>
 				<string></string>
+				<key>设备内建=built-in</key>
+				<string>01</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x0)</key>
 			<dict>
@@ -474,16 +474,16 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>AAPL,slot-name</key>
-				<string>WLAN</string>
-				<key>brcmfx-country</key>
-				<string>#a</string>
-				<key>compatible</key>
-				<string>pci14e4,43a3</string>
 				<key>device_type</key>
 				<string>Airport Extreme</string>
+				<key>AAPL,slot-name</key>
+				<string>WLAN</string>
 				<key>model</key>
 				<string>Intel Wi-Fi 6 AX200 Beta(802.11ax wireless)</string>
+				<key>compatible</key>
+				<string>pci14e4,43a3</string>
+				<key>brcmfx-country</key>
+				<string>#a</string>
 				<key>name</key>
 				<string>Airport</string>
 			</dict>
@@ -500,56 +500,56 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>AAPL,slot-name</key>
-				<string>SDHC</string>
 				<key>compatible</key>
 				<data>AAAODFIn</data>
-				<key>device_type</key>
-				<string>Card Reader</string>
 				<key>model</key>
 				<string>Realtek RTS5227 PCI Express Card Reader</string>
-				<key>name</key>
-				<string>Apple Memory Card Reader</string>
 				<key>pci-aspm-default</key>
 				<data>AgEAAA==</data>
+				<key>device_type</key>
+				<string>Card Reader</string>
+				<key>AAPL,slot-name</key>
+				<string>SDHC</string>
+				<key>name</key>
+				<string>Apple Memory Card Reader</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Audio</string>
-				<key>device-id</key>
-				<data>cKEAAA==</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>layout-id</key>
 				<data>HAAAAA==</data>
 				<key>model</key>
 				<string>Sunrise Point-LP HD Audio</string>
+				<key>device-id</key>
+				<data>cKEAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>AAAWGQ==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
-				<key>device-id</key>
-				<data>FhkAAA==</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>enable-max-pixel-clock-override</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AAAAAw==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAACA==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
 				<key>model</key>
 				<string>Intel HD Graphics 520</string>
+				<key>enable-max-pixel-clock-override</key>
+				<data>AQAAAA==</data>
+				<key>device-id</key>
+				<data>FhkAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAACA==</data>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>AAPL,ig-platform-id</key>
+				<data>AAAWGQ==</data>
+				<key>disable-external-gpu</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AAAAAw==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -696,6 +696,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>HWPEnabler.kext</string>
+				<key>Comment</key>
+				<string>Lock the highest frequency of CPU</string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HWPEnabler</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1473,7 +1491,7 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Auxiliary</key>
-				<true/>
+				<false/>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -1495,7 +1513,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>OpenControl</string>
 				<key>Path</key>
@@ -1513,7 +1531,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>HdaCodecDump</string>
 				<key>Path</key>
@@ -1615,15 +1633,15 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
-			<true/>
-			<key>MaxBIOSVersion</key>
 			<false/>
+			<key>MaxBIOSVersion</key>
+			<true/>
 			<key>MLB</key>
-			<string>C17706102GUHMHK1M</string>
+			<string>C17605501CDHMHK1H</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>TB2Wb5gR</data>
+			<data>edd6b5gR</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1631,9 +1649,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C17T70QVGVC1</string>
+			<string>C17R6AZ3GVC1</string>
 			<key>SystemUUID</key>
-			<string>4CF015E7-1677-57B8-83B7-8E84296E7124</string>
+			<string>4FFFE463-F0BF-414E-9040-79D77A6F9811</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
