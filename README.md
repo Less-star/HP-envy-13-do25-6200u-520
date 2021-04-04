@@ -41,15 +41,16 @@
           键盘触控：正常
           苹果鼠标：自定义修改“FakeAppleUSBMouse.kext”开启白果鼠标设置界面，开启更多鼠标自定义玩法
           亮度调节：正常
+          外接屏幕：HDMI-正常
           电池电量：正常
-          引导windos：正常
           应用商店：可登录
-          iCloud：可登录（必须有内置网卡）
+          iCloud ID：可登录（必须有内置网卡）
           文件保险箱：可开启
+          引导windos：正常
  
           
            
-       -* 信息通话：闪退/认证错误     
+          信息通话：闪退/认证错误     
           开机音效：无法使用「具体原理上未搞清楚」
           隔空投送：英特尔网卡「暂」不支持！
           开机花屏：有一瞬花屏，暂未修改，开启hidpi后变成条纹撕裂
@@ -60,8 +61,9 @@
 
 2020-12-10:  
              
-             通过「 https://opencore.slowgeek.com」构建OpenCore0.6.4正式版配置表设置参数
-             并加载核心驱动+SSDT用于系统安装
+             通过「 https://github.com/acidanthera/OpenCorePkg 」下载OpenCore 0.6.4正式版
+             通过「 https://opencore.slowgeek.com 」选择架构，设置推荐 OpenCore 配置表参数
+             并加载核心驱动+核心补丁用于系统安装
 
 
 核 心 驱 动：
