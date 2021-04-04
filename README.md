@@ -6,13 +6,23 @@
 
 --------[ 概览 ]----------------------------------------------------------------------------------
 
-  电脑型号            HP ENVY Notebook 笔记本电脑
-  操作系统            Windows 10 专业版 64位 ( DirectX 12 )
-  处理器             英特尔 Core i5-6200U @ 2.30GHz 双核
-  主 板              惠普 80DF ( 6th/7th Generation Intel Processor Family I/O - 9D48 笔记本芯片组 )
-  主显卡             英特尔 HD Graphics 520 ( 128 MB / 惠普 )
-  内 存              8 GB ( SK Hynix LPDDR3 1600MHz )
-  主硬盘             建兴 L8H-256V2G-HP ( 256 GB / 固态硬盘 )
-  显示器             三星 SDC415A ( 13.3 英寸  )
-  声 卡              瑞昱  @ 英特尔 High Definition Audio 控制器
-  网 卡              英特尔 Wi-Fi 6 AX200 160MHz #2
+
+电脑型号            HP ENVY Notebook 笔记本电脑
+
+操作系统            Windows 10 专业版 64位 ( DirectX 12 )
+
+处理器             英特尔 Core i5-6200U @ 2.30GHz 双核
+
+主 板              惠普 80DF ( 6th/7th Generation Intel Processor Family I/O - 9D48 笔记本芯片组 )
+
+主显卡             英特尔 HD Graphics 520 ( 128 MB / 惠普 )
+
+内 存              8 GB ( SK Hynix LPDDR3 1600MHz )
+
+主硬盘             建兴 L8H-256V2G-HP ( 256 GB / 固态硬盘 )
+
+显示器             三星 SDC415A ( 13.3 英寸  )
+
+声 卡              瑞昱  @ 英特尔 High Definition Audio 控制器
+
+网 卡              英特尔 Wi-Fi 6 AX200 160MHz #2
