@@ -1,0 +1,13 @@
+如笔记本套用通用EFI
+需要做以下修改
+
+一：修改替换SSDT-EC-USBX-DESKTOP为以下
+   
+   SSDT-EC-LAPTOP 修复嵌入式控制器。适用于Broadwell或更旧的笔记本电脑。
+   SSDT-EC-USBX-LAPTOP 修复嵌入式控制器。适用于Skylake笔记本电脑和更高版本。
+
+二：增加ps2鼠标驱动VoodooPS2Controller.kext
+   下载地址：https://download.shaoxingshare.com/t/opEvD3BRkW?query=VoodooPS2Controller
+
+三：勾选特定机型勾选项目
+   惠普：Kernel-QuirksLapicKernelPanic 设置启用
