@@ -152,6 +152,10 @@
               调整移动Windows系统EFI文件至oc目录下widows文件夹（让你更清楚知道这是什么文件夹）
               修改MIsc自定义启动项绝对路径“\EFI\OC\Windows\Microsoft\BOOT\bootmgfw.efi”
 
+2021-04-08:
+              
+              升级OpenCore0.6.8正式版底包,更新部分驱动版本
+              
  分 享 修 改： 
                
               添加-v跑马模式，解除USB端口设置，移除内置网卡驱动，三码移除（弄好后自行更换新的）
