@@ -381,7 +381,7 @@
 				<key>Comment</key>
 				<string>英特尔Wi-Fi 专用Big Sur</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
@@ -399,7 +399,7 @@
 				<key>Comment</key>
 				<string>英特尔Wi-Fi 专用Catalina</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
@@ -417,7 +417,7 @@
 				<key>Comment</key>
 				<string>USB网络共享（安卓）</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/HoRNDIS</string>
 				<key>MaxKernel</key>
@@ -435,7 +435,7 @@
 				<key>Comment</key>
 				<string>英特尔蓝牙开关</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -453,7 +453,7 @@
 				<key>Comment</key>
 				<string>英特尔蓝牙驱动</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBluetoothFirmware</string>
 				<key>MaxKernel</key>
@@ -489,7 +489,7 @@
 				<key>Comment</key>
 				<string>USB总线定制-定制</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -790,8 +790,8 @@
 	<dict>
 		<key>BlessOverride</key>
 		<array>
-			<string>\EFI\Windows\Microsoft\BOOT\bootmgfw.efi</string>
 			<string>#此“路径”对应“自定义Windows引导后路径”</string>
+			<string>\EFI\Windows\Microsoft\BOOT\bootmgfw.efi</string>
 		</array>
 		<key>Boot</key>
 		<dict>
@@ -899,7 +899,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string></string>
+				<string>-v</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
